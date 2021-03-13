@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class DPATFacade {
     public static void main(String[] args) {
-        DecimalFormat df = new DecimalFormat("####0.00");
+        DecimalFormat df = new DecimalFormat("####0.00");ll
         
         Calculator calCurrent = new Calculator();
         Calculator calSavings = new Calculator();
@@ -14,7 +14,7 @@ public class DPATFacade {
         double interestLoan, interestCurrent, interestSavings;
         
         balanceAmount = 100000;
-        System.out.println("Calculating CURRENT (" + df.format(balanceAmount) + "):-\n");
+        System.out.println("Calculating CURRENT (" + df.format(balanceAmount) + "):-\n")
         interestCurrent = calCurrent.executeCurrentFacade(balanceAmount);
         System.out.println("Current Interest per month: " + df.format(calCurrent.amountInterest("month", interestCurrent))); 
         System.out.println("Current Interest per quarter: " + df.format(calCurrent.amountInterest("quarter", interestCurrent))); 
