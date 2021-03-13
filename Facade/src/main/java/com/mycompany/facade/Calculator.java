@@ -2,7 +2,7 @@ package com.mycompany.facade;
 
 public class Calculator {
     private InterestCalculation current;
-    private InterestCalculation savings;
+    private InterestCalculation savings; 
     private InterestCalculation loan;
     
     public Calculator() {
