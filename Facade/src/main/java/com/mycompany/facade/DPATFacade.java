@@ -11,7 +11,7 @@ public class DPATFacade {
         Calculator calLoan = new Calculator();
         
         double balanceAmount;
-        double interestLoan, interestCurrent, interestSavings;
+        double interestLoan, interestCurrent, interestSavings; 
         
         balanceAmount = 100000;
         System.out.println("Calculating CURRENT (" + df.format(balanceAmount) + "):-\n");
